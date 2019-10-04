@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/myStyles.css">
         <title>My First Webpage</title>
     </head>
-    <body>
-        <!-- comment -->
-        <h1>Nicholas Baillon</h1>
-        <p>COMP 335, Section 002</p>
+    <body class="standard">
+        <h1 class="text-center">Nicholas Baillon</h1>
+        <div class="row">
+            <!--Left Column-->
+            <div class="col-lg-10">
+                <p>
+                    Hello World! Welcome to my website.<br><br>
+                    My name is Nick. I made this website for my Web Application Development course.
+                    From this page, you can view my resume or GitHub by clicking the link in the "My Links" section.
+                </p>
+                <strong>About Me</strong>
+                <p>
+                    <i>Birthday:</i> October 24th 1997<br>
+                    <i>Favorite Season:</i> Fall<br>
+                    <i>Favorite Color:</i> Green<br><br>
+                    My hobbies include programming games, reading, walking in nature, touring museums, going to historical reenactments,
+                    painting and assembling miniatures, and learning how to play the piano (work in progress). My favorite way of writing
+                    code is to use the Object Oriented paradigm. I also enjoy creating webpages.<br>
+                </p>
+                <strong>Education</strong>
+                <p>
+                    Bridgewater State University, Class of 2020<br>
+                    <i>Primary Major:</i> Computer Science, <i>Secondary Major:</i> Mathematics, <i>Minor:</i> Statistics<br>
+                </p>
+                <strong>Languages</strong>
+                <ul>
+                    <li><i>Functional: </i>F#</li>
+                    <li><i>Logical: </i>Prolog</li>
+                    <li><i>Object-Oriented: </i>C++, Java (Swing, Android)</li>
+                    <li><i>Procedural / Scripting: </i>C, Python</li>
+                    <li><i>Statistics: </i>R, SAS</li>
+                    <li><i>Web Development: </i>CSS, HTML, JavaScript</li>
+                <ul>
+            </div>
+            <!--Right Column-->
+            <div class="col-lg-2">
+                <strong>Nick's Links</strong><br>
+                <i class="fa fa-file"></i><a href="files/baillon_nicholas_resume.pdf">My Resume</a><br>
+                <i class="fa fa-git-square"></i><a href="https://github.com/nickwashere">GitHub</a>
+            </div>
+        </div>
+
     </body>
 </html>
