@@ -1,14 +1,41 @@
-.standard
+.header
 {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #0c0c0c;
     color: white;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
 }
 
-.background
+.footer
 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: #0c0c0c;
+    color: white;
     position: fixed;
-    left: 0; right: 0; top: 0; bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
+    bottom: 0;
+    border-top: 3px solid darkgray;
+    padding: 10px;
+}
+
+a.headlink:link, a.headlink:visited {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid darkgray;
+  }
+  
+  a.headlink:hover, a.headlink:active {
+    background-color: #0c0c0c;
+  }
+
+a.footlink:link, a.footlink:visited
+{
+    color: darkgray;
 }
