@@ -40,6 +40,11 @@ a.footlink:link, a.footlink:visited
     color: darkgray;
 }
 
+a.portfoliolink:link, a.portfoliolink:visited
+{
+  color: black;
+}
+
 .photo {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%; min-height: 100vh;
